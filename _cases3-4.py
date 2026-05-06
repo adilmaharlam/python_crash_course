@@ -8,3 +8,5 @@ print(message)
 
 message = f"Hörmətli {guests[2]}, sizi bu axşam şam yeməyinə dəvət edirəm."
 print(message)
+
+print(f"\n\n\nToplam {len(guests)} qonaq dəvət etmişəm.")
