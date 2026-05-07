@@ -1,6 +1,6 @@
 name = "\t\n Adil \t\n"
 
-print("Original:", name)
-print("lstrip():", name.lstrip())
-print("rstrip():", name.rstrip())
-print("strip():", name.strip())
+print(name)
+print(name.lstrip())
+print(name.rstrip())
+print(name.strip())
