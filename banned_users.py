@@ -4,4 +4,6 @@ user = 'marie'
 if user not in banned_users:
     print(f"{user.title()}, you can post a response if you wish.")
 
-# type: ignore
+
+if user in banned_users:
+    print(f"{user.title()}, you are banned from posting a response.")
