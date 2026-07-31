@@ -13,3 +13,18 @@ for alien in aliens[:3]:
 
 print("...")
 print(f"Total number of aliens: {len(aliens)}")
+
+for alien in aliens[:5]:
+    print(alien)
+
+def change_alien_color(alien, new_color):
+    alien['color'] = new_color
+    if new_color == 'red':
+        alien['points'] = 20
+        alien['speed'] = 'fast'
+    elif new_color == 'yellow':
+        alien['points'] = 15
+        alien['speed'] = 'medium'
+    else:
+        alien['points'] = 10
+        alien['speed'] = 'slow'
